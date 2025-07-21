@@ -1,4 +1,4 @@
-# Credit_Card_Default_Analysis
+# Credit Card Default Analysis
 This project is an exploratory data analysis (EDA) of credit default behavior  using Python and common data analytics tools. It is beginner-level and intended to build foundational skills in data analytics and storytelling.
 
 ## Project Overview
