@@ -1,17 +1,18 @@
 # Credit Card Default Analysis
-This project is an exploratory data analysis (EDA) of credit default behavior  using Python and common data analytics tools. It is beginner-level and intended to build foundational skills in data analytics and storytelling.
 
 ## Project Overview
-The dataset contains client data from a financial institution, including features such as credit limit , education level, sex, age, maritul status, repayment history, and default status.
+This project is an exploratory data analysis (EDA) of credit card default behaviour using Python. The aim is to identify key factors that influence customer default risk and generate insights that could support credit risk decision-making in a financial institution.
 
-The goal of this project was to:
-- Explore the relationship between customer attributes and likelihood of default
-- Visualize patterns and trendsin repayment behavior
-- Practice using pandas, matlpotlib, seaborn and basic manipulation
-- Prepare for predictive modeling step
+The dataset includes customer demographic and financial attributes such as credit limit, education level, gender, age, marital status, repayment history, and default status.
 
-## Tools
-- Python
+## Objectives
+- Identify patterns between customer characteristics and likelihood of default
+- Analyse repayment behaviour and its relationship with financial risk
+- Develop data storytelling skills using visualisations and insights
+- Lay the foundation for future predictive modelling in credit risk
+- 
+## Tools and Technologies Used
+- Python (NumPy, Pandas)
 - Jupyter Notebook
 - Pandas for data manipulation
 - Matplotlib 
@@ -27,10 +28,19 @@ The goal of this project was to:
 - People marked as "Other" or "Unknown" in categories like marriage and education had unusual default patterns (possibly worth deeper investigation).
 - Payment history (especially delayed payments) is strongly linked to whether someone defaults or not.
 
-## Next steps
-Now that I’ve done the analysis, the next step is to build a simple predictive model — just to see if we can guess who might default based on what we’ve learned. I plan to start with something like logistic regression or a decision tree.
+## Business Interpretation
+This analysis highlights early warning indicators of credit risk. In a real financial setting, these insights could help institutions:
+- Improve credit scoring models
+- Identify high-risk customers earlier
+- Design targeted intervention strategies to reduce default rates
 
-I’m sharing this as part of my learning journey, and I’m proud of how far I’ve come already. I know there’s still lots to learn!
+## Next steps
+The next phase of this project will involve building a predictive model (logistic regression or decision tree) to estimate the probability of default based on the identified risk factors.
+
+This will transition the analysis from descriptive insights to predictive analytics.
+
+## Notes
+This project is part of an ongoing learning journey in data analytics, focused on building practical skills in real-world financial datasets and business problem-solving.
 
 ## Open to Feedback!
 If you are reading this and you are more advanced/exprenced - or even just curious - I’d love any feedback or ideas you might have. Feel free to open an issue or just say hi!
